@@ -109,15 +109,25 @@ submenu__item > a:first-child {
 
 
 main {
-    width: 1025px;
+    width: 75%;
     margin: auto;
     padding: 130px 60px 40px 60px;
-    background-color: rgb(250, 250, 250);    
+    background-color: rgb(250, 250, 250);     
+}
+
+.main-block {
+    display: flex;
 }
 
 .left-block {
+    flex-basis: 75%;
+}
+
+.right-block {
     display: inline-block;
-    width: 645px;
+    width: 225px;
+    margin-left: 40px;
+    vertical-align: top;
 }
 
 h2 {
@@ -130,8 +140,7 @@ h2 {
 
 .agency-image {
     float: left;
-    width: 362px;
-    height: 282px;
+    width: 60%;
     margin-right: 25px;
     margin-bottom: 25px;
 }
@@ -149,13 +158,6 @@ p {
     font-size: 13px;
     line-height: 19px;
     color: #4e5050;
-}
-
-.right-block {
-    display: inline-block;
-    width: 210px;
-    margin-left: 40px;
-    vertical-align: top;
 }
 
 .principles-item1 {
